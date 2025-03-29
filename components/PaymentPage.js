@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 import React, { useState, useEffect } from 'react'
 import Script from 'next/script'
@@ -99,7 +100,7 @@ const PaymentPage = ({ username }) => {
             <Script src="https://checkout.razorpay.com/v1/checkout.js"></Script>
 
             <div className='cover w-full relative'>
-                <img className='object-cover w-full h-48 md:h-[350]' src="https://c10.patreonusercontent.com/4/patreon-media/p/campaign/4842667/452146dcfeb04f38853368f554aadde1/eyJ3IjoxOTIwLCJ3ZSI6MX0%3D/16.gif?token-time=1728000000&amp;token-hash=wSuXa5NkmV6E2Cud5d-IPAIyw5tlVp_71iHLQXFQfX0%3D" alt="" />
+                <img className='object-cover w-full h-48 md:h-[350]' src="/2358.jpg" alt="" />
                 <div className='absolute -bottom-20 right-[30%] md:right-[44%]  border-white border-2 rounded-full'>
                     <img className='rounded-full' width={150} height={150} src={currentUser.profilepic} alt="" />
                 </div>
